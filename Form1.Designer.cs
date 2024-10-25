@@ -47,109 +47,127 @@
             // 
             // btnSun
             // 
+            this.btnSun.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnSun.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSun.Location = new System.Drawing.Point(12, 36);
             this.btnSun.Name = "btnSun";
             this.btnSun.Size = new System.Drawing.Size(126, 64);
             this.btnSun.TabIndex = 0;
             this.btnSun.Text = "The Sun";
-            this.btnSun.UseVisualStyleBackColor = true;
+            this.btnSun.UseVisualStyleBackColor = false;
+            this.btnSun.Click += new System.EventHandler(this.btnSun_Click);
             // 
             // btnMercury
             // 
+            this.btnMercury.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnMercury.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMercury.Location = new System.Drawing.Point(12, 106);
             this.btnMercury.Name = "btnMercury";
             this.btnMercury.Size = new System.Drawing.Size(126, 64);
             this.btnMercury.TabIndex = 1;
             this.btnMercury.Text = "Mercury";
-            this.btnMercury.UseVisualStyleBackColor = true;
+            this.btnMercury.UseVisualStyleBackColor = false;
+            this.btnMercury.Click += new System.EventHandler(this.btnMercury_Click);
             // 
             // btnVenus
             // 
+            this.btnVenus.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnVenus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVenus.Location = new System.Drawing.Point(12, 176);
             this.btnVenus.Name = "btnVenus";
             this.btnVenus.Size = new System.Drawing.Size(126, 64);
             this.btnVenus.TabIndex = 2;
             this.btnVenus.Text = "Venus";
-            this.btnVenus.UseVisualStyleBackColor = true;
+            this.btnVenus.UseVisualStyleBackColor = false;
+            this.btnVenus.Click += new System.EventHandler(this.btnVenus_Click);
             // 
             // btnEarth
             // 
+            this.btnEarth.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnEarth.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEarth.Location = new System.Drawing.Point(12, 246);
             this.btnEarth.Name = "btnEarth";
             this.btnEarth.Size = new System.Drawing.Size(126, 64);
             this.btnEarth.TabIndex = 3;
             this.btnEarth.Text = "Earth";
-            this.btnEarth.UseVisualStyleBackColor = true;
+            this.btnEarth.UseVisualStyleBackColor = false;
+            this.btnEarth.Click += new System.EventHandler(this.btnEarth_Click);
             // 
             // btnMars
             // 
+            this.btnMars.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnMars.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnMars.Location = new System.Drawing.Point(12, 316);
             this.btnMars.Name = "btnMars";
             this.btnMars.Size = new System.Drawing.Size(126, 64);
             this.btnMars.TabIndex = 4;
             this.btnMars.Text = "Mars";
-            this.btnMars.UseVisualStyleBackColor = true;
+            this.btnMars.UseVisualStyleBackColor = false;
+            this.btnMars.Click += new System.EventHandler(this.btnMars_Click);
             // 
             // btnQuit
             // 
+            this.btnQuit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnQuit.Location = new System.Drawing.Point(662, 316);
             this.btnQuit.Name = "btnQuit";
             this.btnQuit.Size = new System.Drawing.Size(126, 64);
             this.btnQuit.TabIndex = 9;
             this.btnQuit.Text = "Quit";
-            this.btnQuit.UseVisualStyleBackColor = true;
+            this.btnQuit.UseVisualStyleBackColor = false;
             // 
             // btnNeptune
             // 
+            this.btnNeptune.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnNeptune.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnNeptune.Location = new System.Drawing.Point(662, 246);
             this.btnNeptune.Name = "btnNeptune";
             this.btnNeptune.Size = new System.Drawing.Size(126, 64);
             this.btnNeptune.TabIndex = 8;
             this.btnNeptune.Text = "Neptune";
-            this.btnNeptune.UseVisualStyleBackColor = true;
+            this.btnNeptune.UseVisualStyleBackColor = false;
             // 
             // btnUranus
             // 
+            this.btnUranus.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnUranus.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUranus.Location = new System.Drawing.Point(662, 176);
             this.btnUranus.Name = "btnUranus";
             this.btnUranus.Size = new System.Drawing.Size(126, 64);
             this.btnUranus.TabIndex = 7;
             this.btnUranus.Text = "Uranus";
-            this.btnUranus.UseVisualStyleBackColor = true;
+            this.btnUranus.UseVisualStyleBackColor = false;
             // 
             // btnSaturn
             // 
+            this.btnSaturn.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnSaturn.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSaturn.Location = new System.Drawing.Point(662, 106);
             this.btnSaturn.Name = "btnSaturn";
             this.btnSaturn.Size = new System.Drawing.Size(126, 64);
             this.btnSaturn.TabIndex = 6;
             this.btnSaturn.Text = "Saturn";
-            this.btnSaturn.UseVisualStyleBackColor = true;
+            this.btnSaturn.UseVisualStyleBackColor = false;
+            this.btnSaturn.Click += new System.EventHandler(this.btnSaturn_Click);
             // 
             // btnJupiter
             // 
+            this.btnJupiter.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.btnJupiter.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnJupiter.Location = new System.Drawing.Point(662, 36);
             this.btnJupiter.Name = "btnJupiter";
             this.btnJupiter.Size = new System.Drawing.Size(126, 64);
             this.btnJupiter.TabIndex = 5;
             this.btnJupiter.Text = "Jupiter";
-            this.btnJupiter.UseVisualStyleBackColor = true;
+            this.btnJupiter.UseVisualStyleBackColor = false;
+            this.btnJupiter.Click += new System.EventHandler(this.btnJupiter_Click);
             // 
             // imgPlanet
             // 
-            this.imgPlanet.Location = new System.Drawing.Point(252, 36);
+            this.imgPlanet.Location = new System.Drawing.Point(255, 9);
             this.imgPlanet.Name = "imgPlanet";
-            this.imgPlanet.Size = new System.Drawing.Size(297, 204);
+            this.imgPlanet.Size = new System.Drawing.Size(255, 255);
+            this.imgPlanet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.imgPlanet.TabIndex = 10;
             this.imgPlanet.TabStop = false;
             // 
@@ -157,7 +175,8 @@
             // 
             this.lblStart.AutoSize = true;
             this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblStart.Location = new System.Drawing.Point(293, 9);
+            this.lblStart.ForeColor = System.Drawing.SystemColors.Control;
+            this.lblStart.Location = new System.Drawing.Point(277, 131);
             this.lblStart.Name = "lblStart";
             this.lblStart.Size = new System.Drawing.Size(217, 20);
             this.lblStart.TabIndex = 11;
@@ -165,17 +184,20 @@
             // 
             // lblInfo
             // 
-            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblInfo.ForeColor = System.Drawing.Color.White;
             this.lblInfo.Location = new System.Drawing.Point(144, 267);
             this.lblInfo.Name = "lblInfo";
-            this.lblInfo.Size = new System.Drawing.Size(512, 156);
+            this.lblInfo.Size = new System.Drawing.Size(512, 174);
             this.lblInfo.TabIndex = 12;
             this.lblInfo.Text = resources.GetString("lblInfo.Text");
+            this.lblInfo.Visible = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.lblStart);
