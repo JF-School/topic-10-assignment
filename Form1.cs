@@ -84,7 +84,28 @@ namespace topic_10_assignment
             EnableButtons();
             btnSaturn.Enabled = false;
             imgPlanet.Image = Properties.Resources.saturn;
-            lblInfo.Text = 
+            lblInfo.Text = "Saturn is the sixth planet from the sun, and has beautiful rings. These rings are the same distance as the Earth to the moon, and made up of billions of rocks, dust, ice, and other things! Saturn is also the furthest planet you can see with the naked eye! Saturn has 146 moons; more than Jupiter! Saturn is also less dense than water!!";
+        }
+
+        private void btnUranus_Click(object sender, EventArgs e)
+        {
+            EnableButtons();
+            btnUranus.Enabled = false;
+            imgPlanet.Image = Properties.Resources.uranus;
+            lblInfo.Text = "Uranus is the seventh planet from the sun, and it has smaller rings than Saturn! It has 28 moons. Uranus's atmosphere contains methane gas, which is what gives the blue-greenish colour to the beautiful ice giant! Uranus is also the only planet to be spinning on its side, with a tilt of 97 degrees!";
+        }
+
+        private void btnNeptune_Click(object sender, EventArgs e)
+        {
+            EnableButtons();
+            btnNeptune.Enabled = false;
+            imgPlanet.Image = Properties.Resources.neptune;
+            lblInfo.Text = "Neptune is the eighth planet from the sun, and has rings as well. Neptune has 16 moons; Triton being the largest one, orbits Neptune opposite to the direction that Neptune rotates. Neptune is the windiest planet in the solar system! They have winds that fly frozen methane across the planet, with speeds of up to 2000 km/h!";
+        }
+
+        private void btnQuit_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

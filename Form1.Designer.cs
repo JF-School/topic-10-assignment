@@ -56,6 +56,7 @@
             this.btnSun.Text = "The Sun";
             this.btnSun.UseVisualStyleBackColor = false;
             this.btnSun.Click += new System.EventHandler(this.btnSun_Click);
+            this.btnSun.MouseHover += new System.EventHandler(this.btnSun_Click);
             // 
             // btnMercury
             // 
@@ -68,6 +69,7 @@
             this.btnMercury.Text = "Mercury";
             this.btnMercury.UseVisualStyleBackColor = false;
             this.btnMercury.Click += new System.EventHandler(this.btnMercury_Click);
+            this.btnMercury.MouseHover += new System.EventHandler(this.btnMercury_Click);
             // 
             // btnVenus
             // 
@@ -80,6 +82,7 @@
             this.btnVenus.Text = "Venus";
             this.btnVenus.UseVisualStyleBackColor = false;
             this.btnVenus.Click += new System.EventHandler(this.btnVenus_Click);
+            this.btnVenus.MouseHover += new System.EventHandler(this.btnVenus_Click);
             // 
             // btnEarth
             // 
@@ -92,6 +95,7 @@
             this.btnEarth.Text = "Earth";
             this.btnEarth.UseVisualStyleBackColor = false;
             this.btnEarth.Click += new System.EventHandler(this.btnEarth_Click);
+            this.btnEarth.MouseHover += new System.EventHandler(this.btnEarth_Click);
             // 
             // btnMars
             // 
@@ -104,6 +108,7 @@
             this.btnMars.Text = "Mars";
             this.btnMars.UseVisualStyleBackColor = false;
             this.btnMars.Click += new System.EventHandler(this.btnMars_Click);
+            this.btnMars.MouseHover += new System.EventHandler(this.btnMars_Click);
             // 
             // btnQuit
             // 
@@ -115,6 +120,7 @@
             this.btnQuit.TabIndex = 9;
             this.btnQuit.Text = "Quit";
             this.btnQuit.UseVisualStyleBackColor = false;
+            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
             // 
             // btnNeptune
             // 
@@ -126,6 +132,8 @@
             this.btnNeptune.TabIndex = 8;
             this.btnNeptune.Text = "Neptune";
             this.btnNeptune.UseVisualStyleBackColor = false;
+            this.btnNeptune.Click += new System.EventHandler(this.btnNeptune_Click);
+            this.btnNeptune.MouseHover += new System.EventHandler(this.btnNeptune_Click);
             // 
             // btnUranus
             // 
@@ -137,6 +145,8 @@
             this.btnUranus.TabIndex = 7;
             this.btnUranus.Text = "Uranus";
             this.btnUranus.UseVisualStyleBackColor = false;
+            this.btnUranus.Click += new System.EventHandler(this.btnUranus_Click);
+            this.btnUranus.MouseHover += new System.EventHandler(this.btnUranus_Click);
             // 
             // btnSaturn
             // 
@@ -149,6 +159,7 @@
             this.btnSaturn.Text = "Saturn";
             this.btnSaturn.UseVisualStyleBackColor = false;
             this.btnSaturn.Click += new System.EventHandler(this.btnSaturn_Click);
+            this.btnSaturn.MouseHover += new System.EventHandler(this.btnSaturn_Click);
             // 
             // btnJupiter
             // 
@@ -161,10 +172,11 @@
             this.btnJupiter.Text = "Jupiter";
             this.btnJupiter.UseVisualStyleBackColor = false;
             this.btnJupiter.Click += new System.EventHandler(this.btnJupiter_Click);
+            this.btnJupiter.MouseHover += new System.EventHandler(this.btnJupiter_Click);
             // 
             // imgPlanet
             // 
-            this.imgPlanet.Location = new System.Drawing.Point(255, 9);
+            this.imgPlanet.Location = new System.Drawing.Point(270, 9);
             this.imgPlanet.Name = "imgPlanet";
             this.imgPlanet.Size = new System.Drawing.Size(255, 255);
             this.imgPlanet.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -176,7 +188,7 @@
             this.lblStart.AutoSize = true;
             this.lblStart.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblStart.ForeColor = System.Drawing.SystemColors.Control;
-            this.lblStart.Location = new System.Drawing.Point(277, 131);
+            this.lblStart.Location = new System.Drawing.Point(292, 131);
             this.lblStart.Name = "lblStart";
             this.lblStart.Size = new System.Drawing.Size(217, 20);
             this.lblStart.TabIndex = 11;
@@ -212,6 +224,8 @@
             this.Controls.Add(this.btnVenus);
             this.Controls.Add(this.btnMercury);
             this.Controls.Add(this.btnSun);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Planet Information";
             ((System.ComponentModel.ISupportInitialize)(this.imgPlanet)).EndInit();
