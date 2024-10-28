@@ -34,7 +34,7 @@
             this.btnVenus = new System.Windows.Forms.Button();
             this.btnEarth = new System.Windows.Forms.Button();
             this.btnMars = new System.Windows.Forms.Button();
-            this.btnQuit = new System.Windows.Forms.Button();
+            this.btnClear = new System.Windows.Forms.Button();
             this.btnNeptune = new System.Windows.Forms.Button();
             this.btnUranus = new System.Windows.Forms.Button();
             this.btnSaturn = new System.Windows.Forms.Button();
@@ -110,17 +110,17 @@
             this.btnMars.Click += new System.EventHandler(this.btnMars_Click);
             this.btnMars.MouseHover += new System.EventHandler(this.btnMars_Click);
             // 
-            // btnQuit
+            // btnClear
             // 
-            this.btnQuit.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnQuit.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnQuit.Location = new System.Drawing.Point(662, 316);
-            this.btnQuit.Name = "btnQuit";
-            this.btnQuit.Size = new System.Drawing.Size(126, 64);
-            this.btnQuit.TabIndex = 9;
-            this.btnQuit.Text = "Quit";
-            this.btnQuit.UseVisualStyleBackColor = false;
-            this.btnQuit.Click += new System.EventHandler(this.btnQuit_Click);
+            this.btnClear.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnClear.Location = new System.Drawing.Point(662, 316);
+            this.btnClear.Name = "btnClear";
+            this.btnClear.Size = new System.Drawing.Size(126, 64);
+            this.btnClear.TabIndex = 9;
+            this.btnClear.Text = "Clear";
+            this.btnClear.UseVisualStyleBackColor = false;
+            this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
             // btnNeptune
             // 
@@ -214,7 +214,7 @@
             this.Controls.Add(this.lblInfo);
             this.Controls.Add(this.lblStart);
             this.Controls.Add(this.imgPlanet);
-            this.Controls.Add(this.btnQuit);
+            this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnNeptune);
             this.Controls.Add(this.btnUranus);
             this.Controls.Add(this.btnSaturn);
@@ -241,7 +241,7 @@
         private System.Windows.Forms.Button btnVenus;
         private System.Windows.Forms.Button btnEarth;
         private System.Windows.Forms.Button btnMars;
-        private System.Windows.Forms.Button btnQuit;
+        private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Button btnNeptune;
         private System.Windows.Forms.Button btnUranus;
         private System.Windows.Forms.Button btnSaturn;

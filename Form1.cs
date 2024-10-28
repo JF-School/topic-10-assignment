@@ -103,9 +103,12 @@ namespace topic_10_assignment
             lblInfo.Text = "Neptune is the eighth planet from the sun, and has rings as well. Neptune has 16 moons; Triton being the largest one, orbits Neptune opposite to the direction that Neptune rotates. Neptune is the windiest planet in the solar system! They have winds that fly frozen methane across the planet, with speeds of up to 2000 km/h!";
         }
 
-        private void btnQuit_Click(object sender, EventArgs e)
+        private void btnClear_Click(object sender, EventArgs e)
         {
-            Close();
+            EnableButtons();
+            imgPlanet.Image = null;
+            lblStart.Visible = true;
+            lblInfo.Visible = false;
         }
     }
 }
